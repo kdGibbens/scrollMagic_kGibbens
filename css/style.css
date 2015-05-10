@@ -1,0 +1,117 @@
+
+
+body,html {
+    background: #123;
+    margin: 0 0 0 0;
+}
+
+#intro {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#intro h1{
+	color: #484A48;
+	font-family: 'Meddon', cursive;
+	text-align: center;
+	font-size: 5em;
+	position: relative;
+	margin: 0 0 0;
+	top: 50%;
+}
+
+#propText {
+	opacity: 1;
+}
+
+#devil {
+	width: 100%;
+	height: 100%;
+	background: #222;
+	transform: translateY(100%);
+	overflow: hidden;
+}
+
+#devil img {
+	width: 25%;
+	height: auto;
+	padding: 10%;
+	opacity: 0.0;
+}
+
+.text {
+	background: #EDEBDD;
+	width: 30%;
+	padding: 1.3em;
+	float: right;
+	margin: 10% 22em 0 0; 
+	opacity: 0;
+	font-family: 'Meddon', cursive;
+	font-size: .8em;
+	color: #484A48;
+}
+
+
+
+#body {
+	width: 100%;
+	height: 100%;
+	background: #223;
+	transform: translateX(-100%);
+	position: absolute;
+	top:0;
+	left: 0;
+	overflow: hidden;
+}
+
+#body img {
+	width: 35%;
+	height: auto;
+	padding: 5em;
+	transform: translateY(-100%);
+}
+
+#text2 {
+	background: white;
+}
+
+#greek {
+	width: 100%;
+	height: 100%;
+	background: tomato;
+	transform: translateY(100%);
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+
+#greek img {
+	width: 30%;
+	height: auto;
+	padding: 5em;
+	opacity: 0;
+}
+
+#greek > .text {
+	transform: translateX(200%);
+	opacity: 1;
+}
+
+#skull {
+	width: 100%;
+	height: 100%;
+	background: #333;
+	transform: translateX(-100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#skull img {
+	width: 30%;
+	height: auto;
+	padding: 5em;
+}
